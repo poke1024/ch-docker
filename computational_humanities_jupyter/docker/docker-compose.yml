@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  jupyter:
+    build: .
+    restart: always
+    ports:
+      - "8888:8888"
+    volumes:
+      - ${HOME}:/opt/app/data
+
