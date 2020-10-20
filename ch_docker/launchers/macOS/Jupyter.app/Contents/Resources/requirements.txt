@@ -1,0 +1,5 @@
+tensorflow-cpu==2.3.1
+matplotlib==3.3.2
+jupyterlab>=2.2.8
+tesserocr>=-2.5.1
+calamari_ocr>=1.0.5
