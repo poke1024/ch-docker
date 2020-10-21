@@ -14,7 +14,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	tesseract-ocr \
 	tesseract-ocr-deu \
 	tesseract-ocr-eng
+#	r-base \
+#	r-recommended
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# see https://community.rstudio.com/t/r-in-jupyter-under-linux/18594/4
+#ADD add_r_kernel.sh /usr/local/bin/
+#RUN chmod +x /usr/local/bin/add_r_kernel.sh && \ 
+#    /usr/local/bin/add_r_kernel.sh
 
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
