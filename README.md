@@ -1,6 +1,7 @@
 # Installing the CH Jupyter Environment
 
-Bernhard Liebl, liebl@informatik.uni-leipzig.de, October 2020
+Maximilian Bryan, bryan@informatik.uni-leipzig.de
+Bernhard Liebl, liebl@informatik.uni-leipzig.de
 
 A very large part of running computations involves installing software that actually works. This document helps you set up the environment we use in the course.
 
@@ -223,4 +224,7 @@ If you experience performance problems, configure open up the preferences in Doc
 On macOS and Windows you can also use the Docker Desktop Dashboard - accessible via the Docker menu - to check and manage running containers.
 
 
+## Document Revisions
+
+* 26 October 2020, Initial Version, Bernhard Liebl
 
