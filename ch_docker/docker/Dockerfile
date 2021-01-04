@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.10
 LABEL maintainer="liebl@informatik.uni-leipzig.de"
 
 ARG DEBIAN_FRONTEND=noninteractive
