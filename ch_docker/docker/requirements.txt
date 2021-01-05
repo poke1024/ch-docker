@@ -5,3 +5,4 @@ tesserocr>=2.5.1
 calamari_ocr>=1.0.5
 spacy==2.3.2
 pillow>=7.0.0
+transformers==3.0.1
