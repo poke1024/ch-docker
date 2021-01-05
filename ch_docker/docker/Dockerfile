@@ -24,7 +24,7 @@ EXPOSE 8888
 RUN mkdir -p /work && chmod 777 /work && mkdir -p /home/jupyter && chmod 777 /home/jupyter
 
 ARG JUPYTER_USER
-RUN useradd -u ${JUPYTER_USER} jupyter
+RUN useradd -U ${JUPYTER_USER} jupyter
 USER jupyter
 
 CMD jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --notebook-dir=/work --LabApp.token=''
