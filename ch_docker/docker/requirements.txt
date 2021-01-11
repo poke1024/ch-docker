@@ -6,3 +6,4 @@ calamari_ocr>=1.0.5
 spacy==2.3.2
 pillow>=7.0.0
 transformers==3.0.1
+gensim==3.8.3
